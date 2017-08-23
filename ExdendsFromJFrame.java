@@ -11,6 +11,8 @@ public class ExdendsFromJFrame extends  JFrame{
 	setSize(400,500);  
 	setLayout(null);  
 	setVisible(true);  
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+
 	}  
 	public static void main(String[] args) {
 		new ExdendsFromJFrame();

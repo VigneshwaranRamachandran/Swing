@@ -14,7 +14,7 @@ public class InSideMain {
 		f.setSize(400,500);//400 width and 500 height  
 		f.setLayout(null);//using no layout managers  
 		f.setVisible(true);//making the frame visible  
-
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
 	}
 
 }
